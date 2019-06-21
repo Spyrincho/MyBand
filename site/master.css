@@ -1,0 +1,88 @@
+body{
+  color: #d1e8e2;
+  background-image: linear-gradient(#0d56d9, #5792cf, #22c6f0);
+  margin:0;
+  font-family: 'Forum', cursive;
+  text-align: center;
+  display: grid;
+}
+
+.contact{
+  text-align: center;
+  margin: 0 auto;
+}
+
+header{
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 4px;
+  max-width: 100%;
+  text-align: center;
+}
+header h1{
+  float: left;
+  padding-left: 10px;
+}
+
+nav li{
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+  display: block;
+  float: right;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+nav a{
+  text-align: center;
+  text-decoration: none;
+  color: #d1e8e2;
+  border-radius: 4px;
+}
+
+nav a:hover{
+  background-color: rgba(13, 86, 217, 0.8);
+  color: #d1e8e2;
+}
+
+.maintext{
+  max-width: 80%;
+  text-align: center;
+  margin:0 auto;
+  padding: 5px;
+}
+
+.Introduction a{
+  color: #d1e8e2;
+  text-decoration: underline;
+}
+.Introduction{
+  font-size: 1.15em;
+}
+
+/*------------------------*/
+
+.footer {
+  bottom: -80px;
+  width: 100%;
+  height: 60px;
+  background: #f2e68e;
+  text-align: center;
+  padding-top: 0.3em;
+  color: black;
+  text-decoration: underline;
+}
+
+.maintext{
+  color: black;
+}
+
+.musicnew{
+  float: right;
+}
+
+.musichot{
+  float:left;
+}
