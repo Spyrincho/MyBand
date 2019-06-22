@@ -86,3 +86,49 @@ nav a:hover{
 .musichot{
   float:left;
 }
+
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  header {
+    height: 200px;
+  }
+  .hayley{
+    max-height: 200px;
+  }
+  .pride{
+    max-height: 200px;
+  }
+  .musichot{
+    float: none;
+  }
+  .musicnew{
+    float: none;
+  }
+
+}
+
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+  header{
+    height: 250px;
+  }
+  .musichot{
+    float: none;
+  }
+  .musicnew{
+    float: none;
+  }
+
+}
+
+@media only screen and (max-width: 359px) {
+  header{
+    height: 300px;
+  }
+  .musichot{
+    float: none;
+  }
+  .musicnew{
+    float: none;
+  }
+
+}
